@@ -16,3 +16,7 @@ c线.AgentServer+GameServer=为用户游戏区服务器组；<br><br>
 c线是游戏复本的分布式服务器组处理线，依赖于b线做硬件组扩张；<br><br> 
 负载的分布情况主要是LobbyServer(统一数据的派发)、AgentServer（高并发连接处理）、GameServer（游戏逻辑处理）、DBServer（数据存储）; <br><br> 
 
+<br>Petri层(Petri模型)：用于构建分布式网络结点模型。<br><br>
+1. 库所 (Place)：表示在分布式中所存在的场所和资源；<br><br>
+2. 令牌 (Taken)：表示数据的状态；<br><br>
+3. 变迁(Transition)：表示数据的传输方向；<br><br>
