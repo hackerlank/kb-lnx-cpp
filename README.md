@@ -14,5 +14,5 @@
 b线.AgentServer(N)+LobbyServer+DBServer=为登陆认证和大厅数据加载服务器组；<br><br> 
 c线.AgentServer+GameServer=为用户游戏区服务器组；<br><br>
 c线是游戏复本的分布式服务器组处理线，依赖于b线做硬件组扩张；<br><br> 
-负载的分布情况主要是LobbyServer(统一数据的派发)、AgentServer（高并发连接处理）、GameServer（游戏逻辑处理）、DBServer（数据存储）; <br><br>
+负载的分布情况主要是LobbyServer(统一数据的派发)、AgentServer（高并发连接处理）、GameServer（游戏逻辑处理）、DBServer（数据存储）; <br><br> 
 
